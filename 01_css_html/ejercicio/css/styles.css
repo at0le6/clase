@@ -8,16 +8,22 @@ body{
     width: 500px;
     height: 500px;
     display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .hijo, .hija {
     height: 30%;
     width: 30%;
+    border: 1px solid green;
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .padre{
     border: 5px solid blue;
+    flex-direction: column;
 }
 
 .madre{
@@ -30,6 +36,8 @@ body{
 
 .hija{
     border: 1px solid plum;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .nieto{
