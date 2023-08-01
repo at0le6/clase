@@ -37,6 +37,7 @@ body{
 .hija{
     border: 1px solid plum;
     flex-wrap: wrap;
+    flex-wrap: wrap;
     flex-direction: column;
 }
 
