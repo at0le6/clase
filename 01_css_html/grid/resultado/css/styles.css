@@ -1,0 +1,28 @@
+body {
+    height: 50vh ;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2,.35fr);
+    grid-template-rows:repeat(2,.35fr);
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.item{
+    width: 100%;
+    height: 100%;
+}
+.secondContainer{
+    display: grid;
+    grid-template-rows: repeat(2,.35fr);
+    column-gap: inherit;
+    row-gap: inherit;
+}
+.thirthContainer{
+    display: grid;
+    grid-template-columns: repeat(2,.5fr);
+    column-gap: inherit;
+    row-gap: inherit;
+}
+
