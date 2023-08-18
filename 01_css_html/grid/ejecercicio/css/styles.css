@@ -32,3 +32,13 @@ height: 50vh;
     display: grid;
     row-gap: 25px;
 }
+
+img{
+    object-fit: contain;
+}
+
+.secondContainer2{
+    display: grid;
+    column-gap: inherit ;
+    row-gap: inherit;
+}
